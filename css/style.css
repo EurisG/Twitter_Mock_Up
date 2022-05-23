@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 30px;
+}
+
+.bird {
+    width: 50px;
+}
