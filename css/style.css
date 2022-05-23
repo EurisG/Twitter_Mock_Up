@@ -56,6 +56,7 @@ p{
 .google:hover {
     background-color: lightgrey;
     cursor: pointer;
+    transition: 0.5ms ease-in;
 }
 
 /* APPLE SIGN UP BUTTON  */
@@ -78,7 +79,48 @@ p{
     padding: 5px;
     margin-top: 10px;
 }
+
+.apple p {
+    font-weight: 600;
+}
+
 .apple:hover {
     background-color: lightgrey;
     cursor: pointer;
+    transition: 0.5ms ease-in;
+}
+
+.break
+{
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    margin-right: 50%;
+    
+}
+
+/* SIGN UP WITH PHONE OR EMAIL  */
+
+.phone{
+    background-color: rgb(50, 169, 244);
+    border-radius: 50px;
+    max-width: 50%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    margin-top: 12PX;
+}
+
+.phone p {
+    font-weight:600;
+    color: white;
+}
+
+.phone:hover {
+    background-color: rgb(43, 152, 220);
+    cursor: pointer;
+    transition: 0.5ms ease-in;
 }
