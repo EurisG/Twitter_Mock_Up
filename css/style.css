@@ -3,6 +3,7 @@ body {
     /* background-size: cover ; */
     color: white;
     padding: 20px;
+   
 }
 
 /* LOGO  */
@@ -137,6 +138,8 @@ p{
     color: rgb(25, 154, 234);
 }
 
+/* SIGN IN BUTTON  */
+
 .signInContainer h3{
     margin-top: 30px;
     /* color: black; */
@@ -167,3 +170,22 @@ p{
     transition: 0.3s ;
 }
 
+/* FOOTER  */
+
+.footer{
+    margin-top: 45px;
+    background-color: rgba(0, 0, 0, 0.56);
+    padding: 15px;
+}
+
+.footer a, .footer p{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    display:inline-flex;
+    font-size: 13px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
