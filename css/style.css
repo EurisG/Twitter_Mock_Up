@@ -4,20 +4,28 @@ body {
     padding: 20px;
 }
 
+/* LOGO  */
+
 .bird {
     width: 60px;
 }
+
+/* HAPPENING NOW H1  */
 
 .big {
     font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+/* JOIN TWITTER  */
+
 .medium {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 7%;
     
 }
+
+/* GOOGLE SIGN UP BUTTON  */
 
 .google{
     background-color: white;
@@ -46,6 +54,31 @@ p{
 }
 
 .google:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+/* APPLE SIGN UP BUTTON  */
+
+.apple{
+    background-color: white;
+    border-radius: 50px;
+    max-width: 50%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    margin-top: 12PX;
+}
+.appl{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.apple:hover {
     background-color: lightgrey;
     cursor: pointer;
 }
