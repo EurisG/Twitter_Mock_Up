@@ -1,9 +1,51 @@
 body {
     background-color: black;
     color: white;
-    margin: 30px;
+    padding: 20px;
 }
 
 .bird {
-    width: 50px;
+    width: 60px;
+}
+
+.big {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.medium {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 7%;
+    
+}
+
+.google{
+    background-color: white;
+    border-radius: 50px;
+    max-width: 50%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.goog{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+p{
+    letter-spacing: 0.25px;
+    white-space: nowrap;
+    font-size: 14px;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.google:hover {
+    background-color: lightgrey;
+    cursor: pointer;
 }
